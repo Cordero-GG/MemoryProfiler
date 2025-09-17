@@ -217,6 +217,15 @@ ProyectoMemoria_IS_TOP_LEVEL:STATIC=ON
 ProyectoMemoria_SOURCE_DIR:STATIC=C:/Codigos/Datos 2/MemoryProfiler
 
 //Value Computed by CMake
+calculadora_BINARY_DIR:STATIC=C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/apps/calculadora
+
+//Value Computed by CMake
+calculadora_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+calculadora_SOURCE_DIR:STATIC=C:/Codigos/Datos 2/MemoryProfiler/apps/calculadora
+
+//Value Computed by CMake
 profiler_lib_BINARY_DIR:STATIC=C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/profiler_lib
 
 //Value Computed by CMake
@@ -330,7 +339,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

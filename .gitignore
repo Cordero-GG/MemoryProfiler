@@ -9,6 +9,35 @@
 
 # Precompiled Headers
 *.gch
+
+# Visual Studio files
+*.vcxproj*
+*.vcproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.cachefile
+*.dbmdl
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.ncb
+*.opensdf
+*.tlog
+*.log
+*.ipch
+*.pfx
+*.publish.xml
+*.vs/
+*.VC.db
+
+# VSCode files
+.vscode/
+.history/
+.code-workspace
 *.pch
 
 # Linker files
@@ -29,6 +58,7 @@
 # Compiled Static libraries
 *.lai
 *.la
+out/
 *.a
 *.lib
 
