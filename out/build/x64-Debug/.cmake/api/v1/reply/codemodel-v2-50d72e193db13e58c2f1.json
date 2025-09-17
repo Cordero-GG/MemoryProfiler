@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "profiler_lib",
+					"jsonFile" : "directory-profiler_lib-Debug-211e0f76a4ebea3ed3d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "profiler_lib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "apps/calculadora",
+					"jsonFile" : "directory-apps.calculadora-Debug-0d14a32e61f4cc2f548e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "apps/calculadora",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "apps/simulador",
+					"jsonFile" : "directory-apps.simulador-Debug-c03fb29a7e4613ceef77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "apps/simulador",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ProyectoMemoria"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "profiler_lib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "calculadora",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "simulador",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "calculadora::@dbb999c4c07810a5d642",
+					"jsonFile" : "target-calculadora-Debug-aa1c47f7bd8393a5b77a.json",
+					"name" : "calculadora",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "profiler_lib::@2c2b2d404550706fdd80",
+					"jsonFile" : "target-profiler_lib-Debug-6a42135c85ef9e88ef0a.json",
+					"name" : "profiler_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "simulador::@95cb14fd09edd113e60f",
+					"jsonFile" : "target-simulador-Debug-5e44516ef82df53f1bad.json",
+					"name" : "simulador",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug",
+		"source" : "C:/Codigos/Datos 2/MemoryProfiler"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

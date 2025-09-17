@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Codigos\\Datos 2\\MemoryProfiler\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Codigos\\Datos 2\\MemoryProfiler\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Codigos\\Datos 2\\MemoryProfiler\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -101,7 +105,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,7 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Codigos\\Datos 2\\MemoryProfiler\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-17T21:13:40.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\main.cpp",
               "RelativeDocumentMoniker": "apps\\simulador\\main.cpp",
@@ -129,12 +146,11 @@
               "RelativeToolTip": "apps\\simulador\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:54:30Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:54:30Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "contactos.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\contactos.cpp",
               "RelativeDocumentMoniker": "apps\\simulador\\contactos.cpp",
@@ -142,12 +158,11 @@
               "RelativeToolTip": "apps\\simulador\\contactos.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:54:09.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:54:09.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "contactos.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\contactos.h",
               "RelativeDocumentMoniker": "apps\\simulador\\contactos.h",
@@ -155,12 +170,11 @@
               "RelativeToolTip": "apps\\simulador\\contactos.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:53:47.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:53:47.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "chat.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\chat.cpp",
               "RelativeDocumentMoniker": "apps\\simulador\\chat.cpp",
@@ -168,12 +182,11 @@
               "RelativeToolTip": "apps\\simulador\\chat.cpp",
               "ViewState": "AgIAACUAAAAAAAAAAAAkwEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:53:28.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:53:28.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "chat.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\chat.h",
               "RelativeDocumentMoniker": "apps\\simulador\\chat.h",
@@ -181,12 +194,11 @@
               "RelativeToolTip": "apps\\simulador\\chat.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:53:09.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:53:09.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\main.cpp",
               "RelativeDocumentMoniker": "apps\\calculadora\\main.cpp",
@@ -194,12 +206,11 @@
               "RelativeToolTip": "apps\\calculadora\\main.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:51:10.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:51:10.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Potencia.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\Potencia.cpp",
               "RelativeDocumentMoniker": "apps\\calculadora\\Potencia.cpp",
@@ -207,12 +218,11 @@
               "RelativeToolTip": "apps\\calculadora\\Potencia.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:50:45.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:50:45.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Potencia.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\Potencia.h",
               "RelativeDocumentMoniker": "apps\\calculadora\\Potencia.h",
@@ -220,12 +230,11 @@
               "RelativeToolTip": "apps\\calculadora\\Potencia.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:50:13.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:50:13.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Calculadora.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\Calculadora.cpp",
               "RelativeDocumentMoniker": "apps\\calculadora\\Calculadora.cpp",
@@ -233,12 +242,11 @@
               "RelativeToolTip": "apps\\calculadora\\Calculadora.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:49:43.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:49:43.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Calculadora.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\Calculadora.h",
               "RelativeDocumentMoniker": "apps\\calculadora\\Calculadora.h",
@@ -246,12 +254,11 @@
               "RelativeToolTip": "apps\\calculadora\\Calculadora.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:49:15.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:49:15.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "config.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\config.h",
               "RelativeDocumentMoniker": "profiler_lib\\config.h",
@@ -259,12 +266,11 @@
               "RelativeToolTip": "profiler_lib\\config.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:48:26.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:48:26.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "json_serializer.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\json_serializer.cpp",
               "RelativeDocumentMoniker": "profiler_lib\\json_serializer.cpp",
@@ -272,12 +278,11 @@
               "RelativeToolTip": "profiler_lib\\json_serializer.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAQwFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:47:55.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:47:55.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "json_serializer.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\json_serializer.h",
               "RelativeDocumentMoniker": "profiler_lib\\json_serializer.h",
@@ -285,12 +290,11 @@
               "RelativeToolTip": "profiler_lib\\json_serializer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:47:32.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:47:32.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "socket_client.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\socket_client.cpp",
               "RelativeDocumentMoniker": "profiler_lib\\socket_client.cpp",
@@ -298,12 +302,11 @@
               "RelativeToolTip": "profiler_lib\\socket_client.cpp",
               "ViewState": "AgIAAE0AAAAAAAAAAAAQwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:46:24.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:46:24.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "socket_client.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\socket_client.h",
               "RelativeDocumentMoniker": "profiler_lib\\socket_client.h",
@@ -311,12 +314,11 @@
               "RelativeToolTip": "profiler_lib\\socket_client.h",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwCgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:45:44.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:45:44.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SobrescribirOperador.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\SobrescribirOperador.cpp",
               "RelativeDocumentMoniker": "profiler_lib\\SobrescribirOperador.cpp",
@@ -324,12 +326,11 @@
               "RelativeToolTip": "profiler_lib\\SobrescribirOperador.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:45:12.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:45:12.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "profiler.cpp",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\profiler.cpp",
               "RelativeDocumentMoniker": "profiler_lib\\profiler.cpp",
@@ -337,12 +338,11 @@
               "RelativeToolTip": "profiler_lib\\profiler.cpp",
               "ViewState": "AgIAAH0AAAAAAAAAAAAuwKUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T20:44:44.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:44:44.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "profiler.h",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\profiler.h",
               "RelativeDocumentMoniker": "profiler_lib\\profiler.h",
@@ -350,12 +350,11 @@
               "RelativeToolTip": "profiler_lib\\profiler.h",
               "ViewState": "AgIAABgAAAAAAAAAAAAuwD4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T20:44:12.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:44:12.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\simulador\\CMakeLists.txt",
               "RelativeDocumentMoniker": "apps\\simulador\\CMakeLists.txt",
@@ -363,12 +362,11 @@
               "RelativeToolTip": "apps\\simulador\\CMakeLists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-17T20:43:20.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:43:20.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\apps\\calculadora\\CMakeLists.txt",
               "RelativeDocumentMoniker": "apps\\calculadora\\CMakeLists.txt",
@@ -376,12 +374,11 @@
               "RelativeToolTip": "apps\\calculadora\\CMakeLists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-17T20:42:46.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:42:46.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\profiler_lib\\CMakeLists.txt",
               "RelativeDocumentMoniker": "profiler_lib\\CMakeLists.txt",
@@ -389,22 +386,20 @@
               "RelativeToolTip": "profiler_lib\\CMakeLists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-17T20:42:07.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:42:07.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "P\u00E1ginas de informaci\u00F3n general de CMake",
               "DocumentMoniker": "P\u00E1ginas de informaci\u00F3n general de CMake",
               "ToolTip": "P\u00E1ginas de informaci\u00F3n general de CMake",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-17T20:41:20.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T20:41:20.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Codigos\\Datos 2\\MemoryProfiler\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
