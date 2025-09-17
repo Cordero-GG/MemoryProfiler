@@ -1,0 +1,13 @@
+# ninja log v6
+87	796	7798547190016783	apps/simulador/CMakeFiles/simulador.dir/contactos.cpp.obj	d67e70fb750e942f
+30	6262	7798551906599314	Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
+30	6262	7798551906599314	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
+20	820	7798547189359631	profiler_lib/CMakeFiles/profiler_lib.dir/SobrescribirOperador.cpp.obj	9f327514a348cbab
+6274	8161	7798551907515494	Gui/CMakeFiles/Gui.dir/main.cpp.obj	6483d7654960bf20
+79	847	7798547189949645	apps/simulador/CMakeFiles/simulador.dir/chat.cpp.obj	5e1c957b1ae4fe51
+35	1135	7798547189497664	profiler_lib/CMakeFiles/profiler_lib.dir/socket_client.cpp.obj	452a8a4b1d050008
+30	6262	7798551906599314	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/timestamp	299ed58603fb7a77
+30	6262	7798551906599314	Gui/Gui_autogen/timestamp	299ed58603fb7a77
+6269	8126	7798551907357165	Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.obj	7c8a2cb80eade465
+6279	8214	7798551907589486	Gui/CMakeFiles/Gui.dir/mainwindow.cpp.obj	1f4fde3a06f121a4
+8215	8656	7798551926820227	Gui/Gui.exe	110dd35de367e7d5

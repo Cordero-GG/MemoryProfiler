@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Gui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "Gui_autogen_timestamp_deps::@598a67d92975197df4f4",
+	"isGeneratorProvided" : true,
+	"name" : "Gui_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "Gui",
+		"source" : "Gui"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

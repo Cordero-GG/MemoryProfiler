@@ -3,10 +3,10 @@ project(profiler_lib)
 
 # Biblioteca estática
 add_library(profiler_lib STATIC
-    profiler.cpp
-    SobrescribirOperador.cpp
-    socket_client.cpp
-    json_serializer.cpp
+    "src/profiler.cpp"
+    "src/SobrescribirOperador.cpp"
+    "src/socket_client.cpp"
+    "src/json_serializer.cpp"
 )
 
 # Definir PROFILER_LIB para la biblioteca (evita que el macro se active internamente)

@@ -3,9 +3,9 @@ project(simulador)
 
 # Ejecutable
 add_executable(simulador
-    main.cpp
-    chat.cpp
-    contactos.cpp
+    "src/main.cpp"
+    "src/chat.cpp"
+    "src/contactos.cpp"
 )
 
 # Incluir directorios

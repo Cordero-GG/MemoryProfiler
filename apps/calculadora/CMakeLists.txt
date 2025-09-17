@@ -3,9 +3,9 @@ project(calculadora)
 
 # Ejecutable
 add_executable(calculadora
-    main.cpp
-    Calculadora.cpp
-    Potencia.cpp
+    "src/main.cpp"
+    "src/Calculadora.cpp"
+    "src/Potencia.cpp"
 )
 
 # Incluir directorios
