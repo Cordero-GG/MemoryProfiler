@@ -12,14 +12,15 @@ add_library(profiler_lib STATIC
 # Definir PROFILER_LIB para la biblioteca (evita que el macro se active internamente)
 target_compile_definitions(profiler_lib PRIVATE PROFILER_LIB)
 
-# Incluir directorios
+# Incluir directorios (agregado include explícito de headers)
 target_include_directories(profiler_lib PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/include
 )
 
-# Habilitar C++11
-set(CMAKE_CXX_STANDARD 11)
+# Habilitar C++17
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Librerías de red para Windows

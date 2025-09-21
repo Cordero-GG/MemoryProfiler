@@ -7,7 +7,7 @@ class Potencia {
 public:
     Potencia();
     ~Potencia();
-    void operadorPotencia(punteroPotencia a, punteroPotencia b, char Operando);
+    void operadorPotencia(punteroPotencia a, punteroPotencia b, char operando);
 };
 
 #endif //PROYECTOMEMORIA_POTENCIA_H

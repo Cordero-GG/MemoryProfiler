@@ -1,14 +1,19 @@
-#include "chat.h"
-#include "contactos.h"
+#include "../include/chat.h"
+#include "../include/contactos.h"
 #include <iostream>
+#include <map>
+#include <string>
 
 chat::chat() : currentChat(nullptr) {
     std::cout << "Sistema de chat inicializado." << std::endl;
 }
 
 chat::~chat() {
-    // No liberamos los contactos intencionalmente para generar memory leaks
     std::cout << "Sistema de chat finalizado." << std::endl;
+}
+
+bool chat::contactExists(const std::string& name) const {
+    return contacts.find(name) != contacts.end();
 }
 
 void chat::addContact(std::string name) {
@@ -16,8 +21,7 @@ void chat::addContact(std::string name) {
         contactos* newContact = new contactos(name);
         contacts[name] = newContact;
         std::cout << "Contacto añadido: " << name << std::endl;
-    }
-    else {
+    } else {
         std::cout << "El contacto ya existe." << std::endl;
     }
 }
@@ -25,11 +29,9 @@ void chat::addContact(std::string name) {
 void chat::removeContact(const std::string& name) {
     auto it = contacts.find(name);
     if (it != contacts.end()) {
-        // No liberamos la memoria intencionalmente
         contacts.erase(it);
         std::cout << "Contacto eliminado: " << name << std::endl;
-    }
-    else {
+    } else {
         std::cout << "Contacto no encontrado." << std::endl;
     }
 }
@@ -39,8 +41,7 @@ void chat::selectChat(const std::string& name) {
     if (it != contacts.end()) {
         currentChat = it->second;
         std::cout << "Chat seleccionado con: " << name << std::endl;
-    }
-    else {
+    } else {
         std::cout << "Contacto no encontrado." << std::endl;
     }
 }
@@ -49,8 +50,7 @@ void chat::sendMessage(const std::string& message) {
     if (currentChat != nullptr) {
         currentChat->addMessage(message);
         std::cout << "Mensaje enviado." << std::endl;
-    }
-    else {
+    } else {
         std::cout << "No hay chat seleccionado." << std::endl;
     }
 }
@@ -65,12 +65,7 @@ void chat::showContacts() const {
 void chat::showCurrentChat() const {
     if (currentChat != nullptr) {
         currentChat->displayChat();
-    }
-    else {
+    } else {
         std::cout << "No hay chat seleccionado." << std::endl;
     }
-}
-
-bool chat::contactExists(const std::string& name) const {
-    return contacts.find(name) != contacts.end();
 }

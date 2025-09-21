@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/apps/calculadora
+# Install script for directory: C:/Codigos/Datos 2/MemoryProfiler/apps/calculadora
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Codigos/Datos 2/MemoryProfiler/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,3 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/apps/calculadora/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

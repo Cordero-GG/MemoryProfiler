@@ -2,6 +2,8 @@
 #include <thread>
 #include <chrono>
 #include <unordered_map>
+#include <mutex>
+#include <string>
 #include "profiler.h"
 #include "socket_client.h"
 #include "json_serializer.h"
