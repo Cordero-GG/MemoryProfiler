@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
+#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -24,6 +25,7 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QCheckBox *checkBox;
+    QGraphicsView *graphicsView;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -32,11 +34,22 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(800, 600);
+        MainWindow->setAutoFillBackground(true);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         checkBox = new QCheckBox(centralwidget);
         checkBox->setObjectName("checkBox");
         checkBox->setGeometry(QRect(20, 10, 92, 25));
+        graphicsView = new QGraphicsView(centralwidget);
+        graphicsView->setObjectName("graphicsView");
+        graphicsView->setGeometry(QRect(10, 50, 421, 171));
+        graphicsView->setAutoFillBackground(true);
+        QBrush brush(QColor(0, 0, 127, 255));
+        brush.setStyle(Qt::BrushStyle::VerPattern);
+        graphicsView->setBackgroundBrush(brush);
+        QBrush brush1(QColor(0, 0, 127, 255));
+        brush1.setStyle(Qt::BrushStyle::SolidPattern);
+        graphicsView->setForegroundBrush(brush1);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
