@@ -1,48 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>800</width>
-    <height>600</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
-  <property name="autoFillBackground">
-   <bool>true</bool>
-  </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QListView" name="listView">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>110</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">
-background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>25</height>
-    </rect>
-   </property>
-  </widget>
- </widget>
- <resources/>
- <connections/>
+	<class>MainWindow</class>
+	<widget class="QMainWindow" name="MainWindow">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>1000</width>
+				<height>700</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>Memory Profiler</string>
+		</property>
+		<widget class="QWidget" name="centralwidget">
+			<layout class="QVBoxLayout" name="verticalLayout">
+				<item>
+					<widget class="QTabWidget" name="tabWidget">
+						<property name="currentIndex">
+							<number>0</number>
+						</property>
+						<widget class="QWidget" name="tabGeneral">
+							<attribute name="title">
+								<string>General</string>
+							</attribute>
+							<layout class="QVBoxLayout" name="verticalLayoutGeneral">
+
+								<!-- Panel de métricas generales -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxMetrics">
+										<property name="title">
+											<string>Métricas Generales</string>
+										</property>
+										<layout class="QGridLayout" name="gridLayoutMetrics">
+											<item row="0" column="0">
+												<widget class="QLabel" name="labelUsoActual">
+													<property name="text">
+														<string>Uso actual de memoria: 0 MB</string>
+													</property>
+												</widget>
+											</item>
+											<item row="1" column="0">
+												<widget class="QLabel" name="labelAsignaciones">
+													<property name="text">
+														<string>Asignaciones activas: 0</string>
+													</property>
+												</widget>
+											</item>
+											<item row="2" column="0">
+												<widget class="QLabel" name="labelLeaks">
+													<property name="text">
+														<string>Memory leaks: 0 MB</string>
+													</property>
+												</widget>
+											</item>
+											<item row="3" column="0">
+												<widget class="QLabel" name="labelMaximo">
+													<property name="text">
+														<string>Uso máximo: 0 MB</string>
+													</property>
+												</widget>
+											</item>
+											<item row="4" column="0">
+												<widget class="QLabel" name="labelTotalAsignaciones">
+													<property name="text">
+														<string>Total asignaciones: 0</string>
+													</property>
+												</widget>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+								<!-- Panel de línea de tiempo -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxTimeline">
+										<property name="title">
+											<string>Línea de Tiempo</string>
+										</property>
+										<layout class="QVBoxLayout" name="layoutTimeline">
+											<item>
+												<!-- Placeholder para gráfico -->
+												<widget class="QGraphicsView" name="timelineGraph"/>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+								<!-- Panel de resumen -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxResumen">
+										<property name="title">
+											<string>Resumen (Top 3 archivos con mayores asignaciones)</string>
+										</property>
+										<layout class="QVBoxLayout" name="layoutResumen">
+											<item>
+												<widget class="QTableWidget" name="tableTopArchivos">
+													<column>
+														<property name="text">
+															<string>Archivo</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Asignaciones</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Memoria (MB)</string>
+														</property>
+													</column>
+												</widget>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+							</layout>
+						</widget>
+
+						<widget class="QWidget" name="tabMapaMemoria">
+							<attribute name="title">
+								<string>Mapa de Memoria</string>
+							</attribute>
+							<layout class="QVBoxLayout" name="verticalLayoutMapa">
+								<item>
+									<widget class="QGroupBox" name="groupBoxMapaMemoria">
+										<property name="title">
+											<string>Bloques de Memoria Asignados</string>
+										</property>
+										<layout class="QVBoxLayout" name="layoutTablaMapa">
+											<item>
+												<widget class="QTableWidget" name="tableMapaMemoria">
+													<column>
+														<property name="text">
+															<string>Dirección</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Tipo de Dato</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Tamaño (Bytes)</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Estado</string>
+														</property>
+													</column>
+												</widget>
+											</item>
+										</layout>
+									</widget>
+								</item>
+							</layout>
+						</widget>
+
+						<widget class="QWidget" name="tabAsignacionArchivo">
+							<attribute name="title">
+								<string>Asignación por Archivo</string>
+							</attribute>
+							<layout class="QVBoxLayout" name="verticalLayoutAsignacionArchivo">
+
+								<!-- Tabla con asignaciones por archivo -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxTablaArchivos">
+										<property name="title">
+											<string>Asignaciones por Archivo Fuente</string>
+										</property>
+										<layout class="QVBoxLayout" name="layoutTablaArchivos">
+											<item>
+												<widget class="QTableWidget" name="tableAsignacionesArchivo">
+													<column>
+														<property name="text">
+															<string>Archivo</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Conteo de Asignaciones</string>
+														</property>
+													</column>
+													<column>
+														<property name="text">
+															<string>Total Memoria (MB)</string>
+														</property>
+													</column>
+												</widget>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+								<!-- Placeholder para gráfica -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxGraficaArchivos">
+										<property name="title">
+											<string>Gráfica de Asignaciones</string>
+										</property>
+										<layout class="QVBoxLayout" name="layoutGraficaArchivos">
+											<item>
+												<widget class="QGraphicsView" name="graphAsignacionesArchivo"/>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+							</layout>
+						</widget>
+
+
+						<widget class="QWidget" name="tabMemoryLeaks">
+							<attribute name="title">
+								<string>Memory Leaks</string>
+							</attribute>
+							<layout class="QVBoxLayout" name="verticalLayoutLeaks">
+
+								<!-- Panel de métricas de leaks -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxLeaksDatos">
+										<property name="title">
+											<string>Resumen de Memory Leaks</string>
+										</property>
+										<layout class="QGridLayout" name="gridLayoutLeaks">
+											<item row="0" column="0">
+												<widget class="QLabel" name="labelTotalLeaks">
+													<property name="text">
+														<string>Total memoria fugada: 0 MB</string>
+													</property>
+												</widget>
+											</item>
+											<item row="1" column="0">
+												<widget class="QLabel" name="labelLeakGrande">
+													<property name="text">
+														<string>Leak más grande: 0 MB (archivo: ---)</string>
+													</property>
+												</widget>
+											</item>
+											<item row="2" column="0">
+												<widget class="QLabel" name="labelArchivoFrecuente">
+													<property name="text">
+														<string>Archivo con más leaks: ---</string>
+													</property>
+												</widget>
+											</item>
+											<item row="3" column="0">
+												<widget class="QLabel" name="labelTasaLeaks">
+													<property name="text">
+														<string>Tasa de leaks: 0%</string>
+													</property>
+												</widget>
+											</item>
+										</layout>
+									</widget>
+								</item>
+
+								<!-- Panel de gráficas -->
+								<item>
+									<widget class="QGroupBox" name="groupBoxLeaksGraficas">
+										<property name="title">
+											<string>Visualización de Leaks</string>
+										</property>
+										<layout class="QHBoxLayout" name="layoutLeaksGraficas">
+
+											<item>
+												<widget class="QGraphicsView" name="graphLeaksBarras">
+													<property name="toolTip">
+														<string>Gráfico de barras por archivo</string>
+													</property>
+												</widget>
+											</item>
+											<item>
+												<widget class="QGraphicsView" name="graphLeaksPie">
+													<property name="toolTip">
+														<string>Gráfico de pastel distribución de leaks</string>
+													</property>
+												</widget>
+											</item>
+											<item>
+												<widget class="QGraphicsView" name="graphLeaksTemporal">
+													<property name="toolTip">
+														<string>Gráfico temporal detección de leaks</string>
+													</property>
+												</widget>
+											</item>
+
+										</layout>
+									</widget>
+								</item>
+
+							</layout>
+						</widget>
+
+
+
+					</widget>
+				</item>
+			</layout>
+		</widget>
+		<widget class="QMenuBar" name="menubar"/>
+	</widget>
+	<resources/>
+	<connections/>
 </ui>
