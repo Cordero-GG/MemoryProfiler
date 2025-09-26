@@ -1,5 +1,7 @@
-#include "contactos.h"
+#include "../include/contactos.h"
 #include <iostream>
+
+// Implementación de la clase contactos
 
 contactos::contactos(const std::string& name) : name(name) {
     std::cout << "Contacto creado: " << name << std::endl;

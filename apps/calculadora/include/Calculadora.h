@@ -9,8 +9,8 @@ typedef double* punteroBasico; // Es un "sinónimo" de puntero, lo uso para hacer
 class Calculadora {
 public:
     Calculadora();
-    ~Calculadora(); // Este es el destructor, libera recursos cuando se destruye el objeto
-    void operación(punteroBasico a, punteroBasico b, char símbolo);
+    ~Calculadora(); // Destructor
+    void operacion(punteroBasico a, punteroBasico b, char simbolo);
     void agregarMemoriaArray(punteroArray arreglo, punteroBasico elemento, std::size_t* indice);
 };
 

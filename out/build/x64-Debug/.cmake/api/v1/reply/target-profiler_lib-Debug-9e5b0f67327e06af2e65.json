@@ -77,6 +77,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"path" : "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/profiler_lib/include"
+				},
+				{
+					"backtrace" : 3,
 					"path" : "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/include"
 				}
 			],

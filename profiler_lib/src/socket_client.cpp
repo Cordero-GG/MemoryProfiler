@@ -1,5 +1,11 @@
 #include <iostream>
 #include <chrono>
+#include <string>
+#include <queue>
+#include <mutex>
+#include <thread>
+#include <winsock2.h>
+#include <ws2tcpip.h>
 #include "socket_client.h"
 #include "config.h"
 

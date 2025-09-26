@@ -1,7 +1,10 @@
 #include <chrono>
 #include <iomanip>
 #include <sstream>
+#include <unordered_map>
+#include <string>
 #include "json_serializer.h"
+#include "profiler.h"
 
 using nlohmann::json;
 
