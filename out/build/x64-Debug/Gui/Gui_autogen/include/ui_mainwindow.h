@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
@@ -23,6 +22,7 @@
 #include <QtWidgets/QTableWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include <QtCharts/QChartView>
 
 QT_BEGIN_NAMESPACE
 
@@ -43,7 +43,7 @@ public:
     QLabel *labelTotalAsignaciones;
     QGroupBox *groupBoxTimeline;
     QVBoxLayout *layoutTimeline;
-    QGraphicsView *timelineGraph;
+    QtCharts::QChartView *timelineGraph;
     QGroupBox *groupBoxResumen;
     QVBoxLayout *layoutResumen;
     QTableWidget *tableTopArchivos;
@@ -59,7 +59,7 @@ public:
     QTableWidget *tableAsignacionesArchivo;
     QGroupBox *groupBoxGraficaArchivos;
     QVBoxLayout *layoutGraficaArchivos;
-    QGraphicsView *graphAsignacionesArchivo;
+    QtCharts::QChartView *graphAsignacionesArchivo;
     QWidget *tabMemoryLeaks;
     QVBoxLayout *verticalLayoutLeaks;
     QGroupBox *groupBoxLeaksDatos;
@@ -70,9 +70,9 @@ public:
     QLabel *labelTasaLeaks;
     QGroupBox *groupBoxLeaksGraficas;
     QHBoxLayout *layoutLeaksGraficas;
-    QGraphicsView *graphLeaksBarras;
-    QGraphicsView *graphLeaksPie;
-    QGraphicsView *graphLeaksTemporal;
+    QtCharts::QChartView *graphLeaksBarras;
+    QtCharts::QChartView *graphLeaksPie;
+    QtCharts::QChartView *graphLeaksTemporal;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -126,7 +126,7 @@ public:
         groupBoxTimeline->setObjectName("groupBoxTimeline");
         layoutTimeline = new QVBoxLayout(groupBoxTimeline);
         layoutTimeline->setObjectName("layoutTimeline");
-        timelineGraph = new QGraphicsView(groupBoxTimeline);
+        timelineGraph = new QtCharts::QChartView(groupBoxTimeline);
         timelineGraph->setObjectName("timelineGraph");
 
         layoutTimeline->addWidget(timelineGraph);
@@ -210,7 +210,7 @@ public:
         groupBoxGraficaArchivos->setObjectName("groupBoxGraficaArchivos");
         layoutGraficaArchivos = new QVBoxLayout(groupBoxGraficaArchivos);
         layoutGraficaArchivos->setObjectName("layoutGraficaArchivos");
-        graphAsignacionesArchivo = new QGraphicsView(groupBoxGraficaArchivos);
+        graphAsignacionesArchivo = new QtCharts::QChartView(groupBoxGraficaArchivos);
         graphAsignacionesArchivo->setObjectName("graphAsignacionesArchivo");
 
         layoutGraficaArchivos->addWidget(graphAsignacionesArchivo);
@@ -254,17 +254,17 @@ public:
         groupBoxLeaksGraficas->setObjectName("groupBoxLeaksGraficas");
         layoutLeaksGraficas = new QHBoxLayout(groupBoxLeaksGraficas);
         layoutLeaksGraficas->setObjectName("layoutLeaksGraficas");
-        graphLeaksBarras = new QGraphicsView(groupBoxLeaksGraficas);
+        graphLeaksBarras = new QtCharts::QChartView(groupBoxLeaksGraficas);
         graphLeaksBarras->setObjectName("graphLeaksBarras");
 
         layoutLeaksGraficas->addWidget(graphLeaksBarras);
 
-        graphLeaksPie = new QGraphicsView(groupBoxLeaksGraficas);
+        graphLeaksPie = new QtCharts::QChartView(groupBoxLeaksGraficas);
         graphLeaksPie->setObjectName("graphLeaksPie");
 
         layoutLeaksGraficas->addWidget(graphLeaksPie);
 
-        graphLeaksTemporal = new QGraphicsView(groupBoxLeaksGraficas);
+        graphLeaksTemporal = new QtCharts::QChartView(groupBoxLeaksGraficas);
         graphLeaksTemporal->setObjectName("graphLeaksTemporal");
 
         layoutLeaksGraficas->addWidget(graphLeaksTemporal);

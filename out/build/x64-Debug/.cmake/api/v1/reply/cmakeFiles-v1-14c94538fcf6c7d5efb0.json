@@ -144,100 +144,6 @@
 			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "apps/calculadora/CMakeLists.txt"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"path" : "apps/simulador/CMakeLists.txt"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
 			"path" : "Gui/CMakeLists.txt"
 		},
 		{
@@ -473,180 +379,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtInstallPaths.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6Targets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtFeature.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1715,9 +1447,354 @@
 			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLPrivateVersionlessAliasTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessAliasTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateVersionlessAliasTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessAliasTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6ChartsPrivate/Qt6ChartsPrivateVersionlessAliasTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/6.9.2/msvc2022_64/lib/cmake/Qt6Charts/Qt6ChartsVersionlessAliasTargets.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "apps/calculadora/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "apps/simulador/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

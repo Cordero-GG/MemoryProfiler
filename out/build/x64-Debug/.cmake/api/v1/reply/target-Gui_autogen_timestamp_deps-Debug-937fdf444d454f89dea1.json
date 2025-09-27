@@ -14,6 +14,13 @@
 			}
 		]
 	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "profiler_lib::@2c2b2d404550706fdd80"
+		}
+	],
 	"id" : "Gui_autogen_timestamp_deps::@598a67d92975197df4f4",
 	"isGeneratorProvided" : true,
 	"name" : "Gui_autogen_timestamp_deps",

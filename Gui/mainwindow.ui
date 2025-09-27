@@ -80,8 +80,8 @@
 										</property>
 										<layout class="QVBoxLayout" name="layoutTimeline">
 											<item>
-												<!-- Placeholder para gráfico -->
-												<widget class="QGraphicsView" name="timelineGraph"/>
+												<!-- Reemplazo por QChartView -->
+												<widget class="QtCharts::QChartView" name="timelineGraph"/>
 											</item>
 										</layout>
 									</widget>
@@ -197,7 +197,7 @@
 									</widget>
 								</item>
 
-								<!-- Placeholder para gráfica -->
+								<!-- Reemplazo por QChartView -->
 								<item>
 									<widget class="QGroupBox" name="groupBoxGraficaArchivos">
 										<property name="title">
@@ -205,7 +205,7 @@
 										</property>
 										<layout class="QVBoxLayout" name="layoutGraficaArchivos">
 											<item>
-												<widget class="QGraphicsView" name="graphAsignacionesArchivo"/>
+												<widget class="QtCharts::QChartView" name="graphAsignacionesArchivo"/>
 											</item>
 										</layout>
 									</widget>
@@ -269,21 +269,21 @@
 										<layout class="QHBoxLayout" name="layoutLeaksGraficas">
 
 											<item>
-												<widget class="QGraphicsView" name="graphLeaksBarras">
+												<widget class="QtCharts::QChartView" name="graphLeaksBarras">
 													<property name="toolTip">
 														<string>Gráfico de barras por archivo</string>
 													</property>
 												</widget>
 											</item>
 											<item>
-												<widget class="QGraphicsView" name="graphLeaksPie">
+												<widget class="QtCharts::QChartView" name="graphLeaksPie">
 													<property name="toolTip">
 														<string>Gráfico de pastel distribución de leaks</string>
 													</property>
 												</widget>
 											</item>
 											<item>
-												<widget class="QGraphicsView" name="graphLeaksTemporal">
+												<widget class="QtCharts::QChartView" name="graphLeaksTemporal">
 													<property name="toolTip">
 														<string>Gráfico temporal detección de leaks</string>
 													</property>

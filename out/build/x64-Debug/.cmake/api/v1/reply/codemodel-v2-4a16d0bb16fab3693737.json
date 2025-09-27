@@ -38,6 +38,24 @@
 					]
 				},
 				{
+					"build" : "Gui",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Gui-Debug-7a7d0f27694091c655cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
 					"build" : "apps/calculadora",
 					"jsonFile" : "directory-apps.calculadora-Debug-0d14a32e61f4cc2f548e.json",
 					"minimumCMakeVersion" : 
@@ -45,7 +63,7 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 2,
+					"projectIndex" : 3,
 					"source" : "apps/calculadora",
 					"targetIndexes" : 
 					[
@@ -60,29 +78,11 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 3,
+					"projectIndex" : 4,
 					"source" : "apps/simulador",
 					"targetIndexes" : 
 					[
 						5
-					]
-				},
-				{
-					"build" : "Gui",
-					"hasInstallRule" : true,
-					"jsonFile" : "directory-Gui-Debug-f4c4b5aaee79fefe821d.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.16"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 4,
-					"source" : "Gui",
-					"targetIndexes" : 
-					[
-						0,
-						1,
-						2
 					]
 				}
 			],
@@ -120,30 +120,6 @@
 					[
 						2
 					],
-					"name" : "calculadora",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						3
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						3
-					],
-					"name" : "simulador",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						5
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						4
-					],
 					"name" : "Gui",
 					"parentIndex" : 0,
 					"targetIndexes" : 
@@ -152,37 +128,61 @@
 						1,
 						2
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "calculadora",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "simulador",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 4,
+					"directoryIndex" : 2,
 					"id" : "Gui::@598a67d92975197df4f4",
-					"jsonFile" : "target-Gui-Debug-1295da3b4f9f1bdf880e.json",
+					"jsonFile" : "target-Gui-Debug-e54680e8b6e6505be709.json",
 					"name" : "Gui",
-					"projectIndex" : 4
-				},
-				{
-					"directoryIndex" : 4,
-					"id" : "Gui_autogen::@598a67d92975197df4f4",
-					"jsonFile" : "target-Gui_autogen-Debug-93ea3cdb8f35ecd4bdc7.json",
-					"name" : "Gui_autogen",
-					"projectIndex" : 4
-				},
-				{
-					"directoryIndex" : 4,
-					"id" : "Gui_autogen_timestamp_deps::@598a67d92975197df4f4",
-					"jsonFile" : "target-Gui_autogen_timestamp_deps-Debug-3c489744053246d83216.json",
-					"name" : "Gui_autogen_timestamp_deps",
-					"projectIndex" : 4
+					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
+					"id" : "Gui_autogen::@598a67d92975197df4f4",
+					"jsonFile" : "target-Gui_autogen-Debug-93ea3cdb8f35ecd4bdc7.json",
+					"name" : "Gui_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Gui_autogen_timestamp_deps::@598a67d92975197df4f4",
+					"jsonFile" : "target-Gui_autogen_timestamp_deps-Debug-937fdf444d454f89dea1.json",
+					"name" : "Gui_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "calculadora::@dbb999c4c07810a5d642",
 					"jsonFile" : "target-calculadora-Debug-cfa42daf32145a1182cb.json",
 					"name" : "calculadora",
-					"projectIndex" : 2
+					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 1,
@@ -192,11 +192,11 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "simulador::@95cb14fd09edd113e60f",
 					"jsonFile" : "target-simulador-Debug-6fd4eab6c2ae8bb5e69e.json",
 					"name" : "simulador",
-					"projectIndex" : 3
+					"projectIndex" : 4
 				}
 			]
 		}
