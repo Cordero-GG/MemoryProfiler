@@ -15,7 +15,7 @@ int main() {
     Calculadora calc;
 
     // Realizar algunas operaciones
-    calc.operación(num1, num2, '+');
+    calc.operacion(num1, num2, '+');
 
     // Liberar algunos recursos
     delete num1;

@@ -6,6 +6,8 @@ add_executable(simulador
     "src/main.cpp"
     "src/chat.cpp"
     "src/contactos.cpp"
+    "include/chat.h"
+    "include/contactos.h"
 )
 
 # Incluir directorios

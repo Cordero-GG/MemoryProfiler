@@ -6,13 +6,18 @@ add_executable(calculadora
     "src/main.cpp"
     "src/Calculadora.cpp"
     "src/Potencia.cpp"
+    "include/Calculadora.h"
+    "include/Potencia.h"
 )
 
 # Incluir directorios
+# Agregado el include de la carpeta local de headers
+# para que los includes funcionen correctamente
+# con #include "Potencia.h" y #include "Calculadora.h"
 target_include_directories(calculadora PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_SOURCE_DIR}/profiler_lib
-    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 # Enlazar con la biblioteca del profiler

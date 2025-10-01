@@ -1,8 +1,8 @@
 #define DISABLE_PROFILER_MACRO //Evita que el macro de profiler.h afecte este archivo
-#include "profiler.h"
 #include <new>
 #include <cstdlib>
 #include <iostream>
+#include "profiler.h"
 
 // Definición de las sobrecargas del operador new/delete
 void* operator new(std::size_t size, const char* file, int line) {
