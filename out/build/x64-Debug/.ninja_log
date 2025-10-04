@@ -1,18 +1,24 @@
 # ninja log v6
-2842	6216	7802197305159663	Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.obj	7c8a2cb80eade465
-112	413	7802201115057818	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
-112	413	7802201115057818	Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
-417	3553	7802201118114362	Gui/CMakeFiles/Gui.dir/mainwindow.cpp.obj	1f4fde3a06f121a4
-112	413	7802201115057818	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/timestamp	299ed58603fb7a77
-2849	5967	7802197305229695	Gui/CMakeFiles/Gui.dir/main.cpp.obj	6483d7654960bf20
-112	413	7802201115057818	Gui/Gui_autogen/timestamp	299ed58603fb7a77
-3554	3999	7802201149482817	Gui/Gui.exe	110dd35de367e7d5
-34	1429	7810598825270814	build.ninja	6b9302b7af45f14b
-88	6264	7810599379877982	Gui/Gui_autogen/timestamp	299ed58603fb7a77
-88	6264	7810599379877982	Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
-88	6264	7810599379877982	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/timestamp	299ed58603fb7a77
-88	6264	7810599379877982	C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui_autogen/mocs_compilation.cpp	299ed58603fb7a77
-6273	8746	7810599380852114	Gui/CMakeFiles/Gui.dir/main.cpp.obj	6483d7654960bf20
-6267	8752	7810599380792262	Gui/CMakeFiles/Gui.dir/Gui_autogen/mocs_compilation.cpp.obj	7c8a2cb80eade465
-6281	9226	7810599380942361	Gui/CMakeFiles/Gui.dir/mainwindow.cpp.obj	1f4fde3a06f121a4
-9226	9627	7810599410386075	Gui/Gui.exe	110dd35de367e7d5
+187	1592	7812673168750514	apps/calculadora/CMakeFiles/calculadora.dir/src/Calculadora.cpp.obj	c886965ee1e78622
+164	1632	7812673180270801	Gui/Prueva3_autogen/timestamp	f08ec0fb2184f53e
+164	1632	7812673180270801	Gui/Prueva3_autogen/mocs_compilation.cpp	f08ec0fb2184f53e
+164	1632	7812673180270801	C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/Gui/Prueva3_autogen/timestamp	f08ec0fb2184f53e
+164	1632	7812673180270801	C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/Gui/Prueva3_autogen/mocs_compilation.cpp	f08ec0fb2184f53e
+224	1687	7812673169139826	apps/simulador/CMakeFiles/simulador.dir/src/contactos.cpp.obj	1f52793f3c85321b
+195	1774	7812673168795632	apps/calculadora/CMakeFiles/calculadora.dir/src/Potencia.cpp.obj	442b0e622de3a0ba
+216	1780	7812673169040392	apps/simulador/CMakeFiles/simulador.dir/src/chat.cpp.obj	5ce1ba2d332a4e1a
+138	1787	7812673168236614	profiler_lib/CMakeFiles/profiler_lib.dir/src/SobrescribirOperador.cpp.obj	626f4007b74fc23
+178	1814	7812673168680545	apps/calculadora/CMakeFiles/calculadora.dir/src/main.cpp.obj	11cc2fbc0d632755
+205	1874	7812673168881532	apps/simulador/CMakeFiles/simulador.dir/src/main.cpp.obj	1dde8b4af059f25d
+148	2729	7812673168363789	profiler_lib/CMakeFiles/profiler_lib.dir/src/socket_client.cpp.obj	bbe83abb6674b22c
+156	4114	7812673168428720	profiler_lib/CMakeFiles/profiler_lib.dir/src/json_serializer.cpp.obj	63b5f9d21c975ecc
+128	4290	7812673168178836	profiler_lib/CMakeFiles/profiler_lib.dir/src/profiler.cpp.obj	774b7e29c376e77a
+4290	4422	7812673209731265	profiler_lib/profiler_lib.lib	ec241a17ff3e0c11
+1644	6118	7812673183338092	Gui/CMakeFiles/Prueva3.dir/Prueva3_autogen/mocs_compilation.cpp.obj	da4675555e7a6399
+1655	6161	7812673183445857	Gui/CMakeFiles/Prueva3.dir/main.cpp.obj	caae19d4397d5eae
+4422	6367	7812673211124396	apps/calculadora/calculadora.exe	31b88bb133922f6f
+4444	6368	7812673211262282	apps/simulador/simulador.exe	463421e710b928c8
+1667	7233	7812673183549554	Gui/CMakeFiles/Prueva3.dir/mainwindow.cpp.obj	729afceabcc44e9b
+7234	10000	7812673239234015	bin/Prueva3d.exe	3408f3f782483d63
+138	477	7812673270011028	CMakeFiles/install.util	9b3d939a73a7f9d5
+99	190	7812907011853624	CMakeFiles/install.util	9b3d939a73a7f9d5

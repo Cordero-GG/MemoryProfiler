@@ -1,0 +1,6 @@
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/ServerClient.dir
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/TestClient.dir
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/edit_cache.dir
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/rebuild_cache.dir
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/ServerClient_autogen_timestamp_deps.dir
+C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/CMakeFiles/ServerClient_autogen.dir

@@ -1,0 +1,5 @@
+set(__QT_DEPLOY_TARGET_ServerClient_FILE C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/libServerClient.a)
+set(__QT_DEPLOY_TARGET_ServerClient_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_TestClient_FILE C:/ProgramData/QtCreator/Links/1bde9fb3122ee0b77978842a964e7364/TestClient.exe)
+set(__QT_DEPLOY_TARGET_TestClient_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_TestClient_RUNTIME_DLLS C:/Qt/6.9.3/llvm-mingw_64/bin/Qt6Network.dll;C:/Qt/6.9.3/llvm-mingw_64/bin/Qt6Core.dll)
