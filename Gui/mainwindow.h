@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "ProfilerServer.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +18,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void handleClientConnected(QTcpSocket *socket);
+    void handleClientDisconnected();
+    void handleDataReceived(const QString &keyword, const QByteArray &data);
+    void handleServerError(const QString &errorString);
+
 private:
     Ui::MainWindow *ui;
+    ProfilerServer *server;
 };
 #endif // MAINWINDOW_H

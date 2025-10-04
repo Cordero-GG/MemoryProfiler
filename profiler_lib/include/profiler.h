@@ -1,48 +1,39 @@
 #ifndef PROYECTOMEMORIA_PROFILER_H
 #define PROYECTOMEMORIA_PROFILER_H
 
-#include <chrono>
 #include <mutex>
-#include <unordered_map>
 #include <cstddef>
-#include <string>
-#include <utility>
+#include <QString>
+#include <QDateTime>
+
+#include "profiler_types.h"
 
 // Si no estamos compilando la biblioteca, definir USER_SOURCE para activar el macro
 #ifndef PROFILER_LIB
 #define USER_SOURCE
 #endif
 
-struct InfoMemoria
-{
-    std::size_t size;
-    std::chrono::system_clock::time_point timestamp;
-    const char* file;
-    int line;
-};
-
-class  Profiler
-{
+class Profiler {
 private:
-    static std::unordered_map<void*, InfoMemoria> Metadatos;
+    static QtMemoryMap Metadatos;
     static std::mutex mutexMetadatos;
-    static size_t memoriaTotal;
-    static size_t cantidadGuardados;
-    static size_t maxMemoriaUsada;
-    static size_t totalAsignaciones;
+    static qint64 memoriaTotal;
+    static qint64 cantidadGuardados;
+    static qint64 maxMemoriaUsada;
+    static qint64 totalAsignaciones;
 
 public:
     // Métodos de tracking
     static void TomarInformacion(void* ptr, size_t size, const char* file, int line);
     static void EliminarInformacion(void* ptr);
-    static std::size_t tomarMemoriaTotal();
-    static std::size_t tomarCantidadGuardados();
-    static std::size_t tomarMaxMemoriaUsada();
-    static std::size_t tomarTotalAsignaciones();
+    static qint64 tomarMemoriaTotal();
+    static qint64 tomarCantidadGuardados();
+    static qint64 tomarMaxMemoriaUsada();
+    static qint64 tomarTotalAsignaciones();
     static void ReportarMemoryLeaks();
 
     // Nuevo método para obtener resumen por archivo
-    static std::unordered_map<std::string, std::pair<size_t, size_t>> obtenerResumenPorArchivo();
+    static QtFileSummaryMap obtenerResumenPorArchivo();
 };
 
 void* operator new(std::size_t size, const char* file, int line);
