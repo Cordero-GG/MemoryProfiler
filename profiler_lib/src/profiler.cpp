@@ -33,6 +33,10 @@ void Profiler::TomarInformacion(void* ptr, size_t size, const char* file, int li
     // Mensaje de depuración
     std::cout << "Asignación: " << ptr << " - " << size << " bytes en "
         << (file ? file : "unknown") << ":" << line << std::endl;
+
+    if (notifier) {
+        notifier->enviarAsignacion(ptr, size, QString::fromUtf8(file ? file : "unknown"), line);
+    }
 }
 
 // Implementación de EliminarInformacion
@@ -46,6 +50,10 @@ void Profiler::EliminarInformacion(void* ptr) {
 
         // Mensaje de depuración
         std::cout << "Liberación: " << ptr << std::endl;
+    }
+
+    if (notifier) {
+        notifier->enviarLiberacion(ptr);
     }
 }
 
