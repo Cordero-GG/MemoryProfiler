@@ -1,6 +1,0 @@
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/ServerClient.dir
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/TestClient.dir
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/edit_cache.dir
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/ServerClient_autogen_timestamp_deps.dir
-C:/Codigos/Datos 2/MemoryProfiler/profiler_lib/Client/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/ServerClient_autogen.dir

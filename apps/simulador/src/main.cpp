@@ -1,9 +1,8 @@
 #define USER_SOURCE
-#include "../../../profiler_lib/include/profiler.h"
+#include "profiler.h"  // Cambiar esta l√≠nea
 #include <iostream>
 #include <string>
-#include "../include/chat.h"
-
+#include "chat.h"
 void showMenu() {
     std::cout << "\n=== SISTEMA DE CHAT ===\n";
     std::cout << "1. Agregar contacto\n";
@@ -18,13 +17,13 @@ void showMenu() {
 int main() {
     showMenu();
 
-    // LÛgica del chat con memory leaks intencionales
+    // L?gica del chat con memory leaks intencionales
     chat sistemaChat;
 
     // Agregar contactos (algunos con leaks)
     sistemaChat.addContact("Usuario1");
     sistemaChat.addContact("Usuario2");
-    sistemaChat.addContact("Usuario3"); // Este tendr· leak
+    sistemaChat.addContact("Usuario3"); // Este tendr? leak
 
     // Seleccionar chat y enviar mensajes
     sistemaChat.selectChat("Usuario1");

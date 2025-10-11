@@ -4,14 +4,6 @@ project(profiler_lib)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Encontrar Qt (igual que en los otros CMakeLists)
-find_package(Qt6 REQUIRED COMPONENTS Core Network)
-
-# Configurar variables de salida para MSVC
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
 # Fuentes de la biblioteca
 set(PROFILER_SOURCES
     "src/profiler.cpp"
@@ -33,9 +25,10 @@ target_link_libraries(profiler_lib
     Qt6::Network
 )
 
-# Habilitar MOC autom·ticamente
+# Definir PROFILER_LIB para controlar el macro new
+target_compile_definitions(profiler_lib PRIVATE PROFILER_LIB)
+
+# Habilitar MOC autom√°ticamente
 set_target_properties(profiler_lib PROPERTIES
     AUTOMOC ON
-    AUTOUIC ON
-    AUTORCC ON
 )
