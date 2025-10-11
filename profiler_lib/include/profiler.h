@@ -23,7 +23,7 @@ private:
     static qint64 cantidadGuardados;
     static qint64 maxMemoriaUsada;
     static qint64 totalAsignaciones;
-	static ProfilerNotifier* notifier;
+    static ProfilerNotifier* notifier;
 
 public:
     // Métodos de tracking

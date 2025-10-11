@@ -4,13 +4,16 @@ project(profiler_lib)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Encontrar Qt (igual que en los otros CMakeLists)
+# Encontrar Qt
 find_package(Qt6 REQUIRED COMPONENTS Core Network)
 
 # Configurar variables de salida para MSVC
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+
+# Definir PROFILER_LIB para la biblioteca
+target_compile_definitions(profiler_lib PRIVATE PROFILER_LIB)
 
 # Fuentes de la biblioteca
 set(PROFILER_SOURCES

@@ -19,6 +19,9 @@ void* operator new[](std::size_t size, const char* file, int line) {
 }
 
 void operator delete(void* ptr, const char* file, int line) noexcept {
+    if (ptr) {
+        Profiler::EliminarInformacion(ptr);
+    }
     std::free(ptr);
 }
 

@@ -12,33 +12,30 @@ set(SIMULADOR_SOURCES
     "src/main.cpp"
     "src/chat.cpp"
     "src/contactos.cpp"
-    "include/chat.h"
-    "include/contactos.h"
 )
 
 # Ejecutable
 add_executable(simulador
-    "src/main.cpp"
-    "src/chat.cpp"
-    "src/contactos.cpp"
-    "include/chat.h"
-    "include/contactos.h"
+    ${SIMULADOR_SOURCES}
 )
 
 # Incluir directorios
 target_include_directories(simulador PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/include              #Header del simulador
-    ${CMAKE_SOURCE_DIR}/profiler_lib/include         #Header del profiler
+    ${CMAKE_CURRENT_SOURCE_DIR}/include              # Headers del simulador
+    ${CMAKE_SOURCE_DIR}/profiler_lib/include         # Headers del profiler
 )
-
-
 
 # Enlazar con Qt y el profiler
 target_link_libraries(simulador 
-   
+    profiler_lib     # Enlazar con la librería del profiler
     Qt6::Core 
     Qt6::Network
 )
 
-# Definir USER_SOURCE y USE_QT
-target_compile_definitions(simulador PRIVATE USER_SOURCE USE_QT)
+# Definir USER_SOURCE para activar el macro new
+target_compile_definitions(simulador PRIVATE USER_SOURCE)
+
+# Configurar para usar MSVC runtime estático en Debug si es necesario
+if(MSVC AND CMAKE_BUILD_TYPE STREQUAL "Debug")
+    target_compile_options(simulador PRIVATE /MTd)
+endif()
