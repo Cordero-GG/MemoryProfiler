@@ -1,5 +1,5 @@
 #define USER_SOURCE
-#include <profiler.h>
+#include "../../../profiler_lib/include/profiler.h"
 #include <iostream>
 #include <string>
 #include "../include/chat.h"
@@ -17,6 +17,33 @@ void showMenu() {
 
 int main() {
     showMenu();
-    // Aquí iría la lógica de interacción con la clase chat
+
+    // Lógica del chat con memory leaks intencionales
+    chat sistemaChat;
+
+    // Agregar contactos (algunos con leaks)
+    sistemaChat.addContact("Usuario1");
+    sistemaChat.addContact("Usuario2");
+    sistemaChat.addContact("Usuario3"); // Este tendrá leak
+
+    // Seleccionar chat y enviar mensajes
+    sistemaChat.selectChat("Usuario1");
+    sistemaChat.sendMessage("Hola desde el profiler!");
+    sistemaChat.sendMessage("Este es un mensaje de prueba");
+
+    // Mostrar el chat actual
+    sistemaChat.showCurrentChat();
+
+    // Mostrar todos los contactos
+    sistemaChat.showContacts();
+
+    // Eliminar un contacto (pero no todos, para generar leaks)
+    sistemaChat.removeContact("Usuario2");
+
+    std::cout << "Finalizando simulador de chat..." << std::endl;
+
+    // Reportar memory leaks al finalizar
+    Profiler::ReportarMemoryLeaks();
+
     return 0;
 }

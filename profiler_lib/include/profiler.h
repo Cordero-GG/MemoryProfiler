@@ -13,6 +13,8 @@
 #define USER_SOURCE
 #endif
 
+class ProfilerNotifier;
+
 class Profiler {
 private:
     static QtMemoryMap Metadatos;
@@ -21,7 +23,7 @@ private:
     static qint64 cantidadGuardados;
     static qint64 maxMemoriaUsada;
     static qint64 totalAsignaciones;
-	static profilerNotifier* notifier;
+	static ProfilerNotifier* notifier;
 
 public:
     // Métodos de tracking
@@ -32,6 +34,9 @@ public:
     static qint64 tomarMaxMemoriaUsada();
     static qint64 tomarTotalAsignaciones();
     static void ReportarMemoryLeaks();
+
+    // Inicializar el notifier
+    static void inicializarNotifier();
 
     // Nuevo método para obtener resumen por archivo
     static QtFileSummaryMap obtenerResumenPorArchivo();

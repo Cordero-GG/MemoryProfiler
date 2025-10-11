@@ -4,6 +4,7 @@
 #include <QString>
 #include <QDateTime>
 #include "profiler.h"
+#include "profilerNotifier.h"
 
 // Inicializar las variables estáticas
 QtMemoryMap Profiler::Metadatos;
@@ -12,6 +13,15 @@ qint64 Profiler::memoriaTotal = 0;
 qint64 Profiler::cantidadGuardados = 0;
 qint64 Profiler::maxMemoriaUsada = 0;
 qint64 Profiler::totalAsignaciones = 0;
+// Inicializar el notifier
+ProfilerNotifier* Profiler::notifier = nullptr;
+
+
+void Profiler::inicializarNotifier() {
+    if (!notifier) {
+        notifier = new ProfilerNotifier();
+    }
+}
 
 // Implementación de TomarInformacion
 void Profiler::TomarInformacion(void* ptr, size_t size, const char* file, int line) {
@@ -34,6 +44,9 @@ void Profiler::TomarInformacion(void* ptr, size_t size, const char* file, int li
     std::cout << "Asignación: " << ptr << " - " << size << " bytes en "
         << (file ? file : "unknown") << ":" << line << std::endl;
 
+    if (!notifier) {
+        inicializarNotifier();
+    }
     if (notifier) {
         notifier->enviarAsignacion(ptr, size, QString::fromUtf8(file ? file : "unknown"), line);
     }
@@ -97,7 +110,7 @@ QtFileSummaryMap Profiler::obtenerResumenPorArchivo() {
 }
 
 // Implementación de ReportarMemoryLeaks
-void Profiler::ReportarMemoryLeaks() {
+/*void Profiler::ReportarMemoryLeaks() {
     std::lock_guard<std::mutex> lock(mutexMetadatos);
     if (Metadatos.isEmpty()) {
         std::cout << "No hay memory leaks" << std::endl;
@@ -115,4 +128,34 @@ void Profiler::ReportarMemoryLeaks() {
 
         std::cout << "Total de memoria fugada: " << memoriaTotal << " bytes" << std::endl;
     }
+}*/
+
+// =============================================
+// Implementación de ReportarMemoryLeaks
+// =============================================
+void Profiler::ReportarMemoryLeaks() {
+    std::lock_guard<std::mutex> lock(mutexMetadatos);
+
+    if (Metadatos.isEmpty()) {
+        std::cout << "No hay memory leaks" << std::endl;
+        return;
+    }
+
+    std::cout << "\n=== MEMORY LEAKS REPORT ===" << std::endl;
+    std::cout << Metadatos.size() << " MEMORY LEAKS DETECTADOS:" << std::endl;
+
+    for (auto it = Metadatos.begin(); it != Metadatos.end(); ++it) {
+        const auto& info = it.value();
+        QDateTime ahora = QDateTime::currentDateTime();
+        qint64 duracion = info.timestamp.secsTo(ahora);
+
+        std::cout << "Leak: " << reinterpret_cast<void*>(it.key())
+            << " - Size: " << info.size << " bytes"
+            << " - Location: " << info.file.toStdString() << ":" << info.line
+            << " - Age: " << duracion << " seconds" << std::endl;
+    }
+
+    std::cout << "Total leaked memory: " << memoriaTotal << " bytes ("
+        << (memoriaTotal / (1024.0 * 1024.0)) << " MB)" << std::endl;
+    std::cout << "============================\n" << std::endl;
 }

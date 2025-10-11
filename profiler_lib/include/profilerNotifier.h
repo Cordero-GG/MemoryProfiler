@@ -2,8 +2,7 @@
 #include <QObject>
 #include <QTcpSocket>
 #include <QString>
-#include <QJsonObject>
-#include <QJsonDocument>
+#include <QDataStream>
 
 class ProfilerNotifier : public QObject {
     Q_OBJECT
@@ -13,8 +12,9 @@ public:
     void enviarAsignacion(void* ptr, size_t size, const QString& file, int line);
     void enviarLiberacion(void* ptr);
     void enviarResumen(qint64 memoriaTotal, qint64 cantidadGuardados, qint64 maxMemoriaUsada, qint64 totalAsignaciones);
+    void enviarReportePorArchivo();
 
 private:
     QTcpSocket socket;
-    void enviarMensaje(const QJsonObject& obj);
+    void enviarMensaje(const QString& keyword, const QByteArray& data);
 };
