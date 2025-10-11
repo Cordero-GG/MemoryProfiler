@@ -12,9 +12,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
-# Definir PROFILER_LIB para la biblioteca
-target_compile_definitions(profiler_lib PRIVATE PROFILER_LIB)
-
 # Fuentes de la biblioteca
 set(PROFILER_SOURCES
     "src/profiler.cpp"
@@ -22,7 +19,7 @@ set(PROFILER_SOURCES
     "src/SobrescribirOperador.cpp"
 )
 
-# Biblioteca del profiler
+# Biblioteca del profiler - CREAR PRIMERO el target
 add_library(profiler_lib STATIC ${PROFILER_SOURCES})
 
 # Incluir directorios
@@ -39,6 +36,7 @@ target_link_libraries(profiler_lib
 # Habilitar MOC automáticamente
 set_target_properties(profiler_lib PROPERTIES
     AUTOMOC ON
-    AUTOUIC ON
-    AUTORCC ON
 )
+
+# Definir PROFILER_LIB para la biblioteca (DESPUÉS de crear el target)
+target_compile_definitions(profiler_lib PRIVATE PROFILER_LIB)

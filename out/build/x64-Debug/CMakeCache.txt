@@ -271,15 +271,6 @@ MemoryProfiler_IS_TOP_LEVEL:STATIC=ON
 MemoryProfiler_SOURCE_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler
 
 //Value Computed by CMake
-ProyectoMemoria_BINARY_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug
-
-//Value Computed by CMake
-ProyectoMemoria_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-ProyectoMemoria_SOURCE_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler
-
-//Value Computed by CMake
 Prueva3_BINARY_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui
 
 //Value Computed by CMake
@@ -380,26 +371,11 @@ X_VCPKG_APPLOCAL_DEPS_INSTALL:BOOL=OFF
 X_VCPKG_APPLOCAL_DEPS_SERIALIZED:BOOL=OFF
 
 //Path to a program.
-Z_VCPKG_BUILTIN_POWERSHELL_PATH:FILEPATH=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
-
-//Path to a program.
 Z_VCPKG_CL:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
-
-//Path to a program.
-Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 
 //The directory which contains the installed libraries for each
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/GokFu/Downloads/vcpkg/installed
-
-//Value Computed by CMake
-calculadora_BINARY_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/apps/calculadora
-
-//Value Computed by CMake
-calculadora_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-calculadora_SOURCE_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/apps/calculadora
 
 //Value Computed by CMake
 profiler_lib_BINARY_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/profiler_lib
@@ -409,15 +385,6 @@ profiler_lib_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 profiler_lib_SOURCE_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/profiler_lib
-
-//Value Computed by CMake
-simulador_BINARY_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/apps/simulador
-
-//Value Computed by CMake
-simulador_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-simulador_SOURCE_DIR:STATIC=C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/apps/simulador
 
 
 ########################
@@ -1450,8 +1417,6 @@ VCPKG_MANIFEST_INSTALL:INTERNAL=OFF
 VCPKG_VERBOSE-ADVANCED:INTERNAL=1
 //Making sure VCPKG_MANIFEST_MODE doesn't change
 Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
-//The path to the PowerShell implementation to use.
-Z_VCPKG_POWERSHELL_PATH:INTERNAL=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 //Vcpkg root directory
 Z_VCPKG_ROOT_DIR:INTERNAL=C:/Users/GokFu/Downloads/vcpkg
 //CMAKE_INSTALL_PREFIX during last run

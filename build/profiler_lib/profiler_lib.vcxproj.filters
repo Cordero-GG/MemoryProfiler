@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\profiler_lib\profiler_lib_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\profiler_lib\src\profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\profiler_lib\src\profilerNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\profiler_lib\src\SobrescribirOperador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\profiler_lib\profiler_lib_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\profiler_lib\profiler_lib_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\profiler_lib\profiler_lib_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\profiler_lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC8BEDDD-E474-316C-986A-CE1DFAE90488}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

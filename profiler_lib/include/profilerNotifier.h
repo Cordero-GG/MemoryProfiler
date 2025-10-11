@@ -1,18 +1,19 @@
 #pragma once
-#include <QObject>
 #include <QTcpSocket>
 #include <QString>
 #include <QDataStream>
 
-class ProfilerNotifier : public QObject {
-    Q_OBJECT
+class ProfilerNotifier {
 public:
-    explicit ProfilerNotifier(QObject* parent = nullptr);
+    ProfilerNotifier();
+    ~ProfilerNotifier() = default;
 
     void enviarAsignacion(void* ptr, size_t size, const QString& file, int line);
     void enviarLiberacion(void* ptr);
     void enviarResumen(qint64 memoriaTotal, qint64 cantidadGuardados, qint64 maxMemoriaUsada, qint64 totalAsignaciones);
     void enviarReportePorArchivo();
+
+    bool estaConectado() const { return socket.state() == QAbstractSocket::ConnectedState; }
 
 private:
     QTcpSocket socket;

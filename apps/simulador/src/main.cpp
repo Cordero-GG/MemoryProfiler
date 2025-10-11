@@ -16,6 +16,11 @@ void showMenu() {
 }
 
 int main() {
+    // INICIALIZAR EL PROFILER AL INICIO
+    std::cout << "Inicializando Memory Profiler..." << std::endl;
+    Profiler::inicializarNotifier(); 
+	std::cout << "Paso?" << std::endl;
+
     showMenu();
 
     // Lógica del chat con memory leaks intencionales
@@ -41,6 +46,10 @@ int main() {
     sistemaChat.removeContact("Usuario2");
 
     std::cout << "Finalizando simulador de chat..." << std::endl;
+
+    // Mantener el programa corriendo un tiempo para ver datos en tiempo real
+    std::cout << "Presiona Enter para terminar...";
+    std::cin.get();  
 
     // Reportar memory leaks al finalizar
     Profiler::ReportarMemoryLeaks();

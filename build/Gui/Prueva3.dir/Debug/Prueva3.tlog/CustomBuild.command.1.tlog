@@ -1,0 +1,22 @@
+^C:\USERS\GOKFU\ONEDRIVE\DESKTOP\MEMORYPROFILER\BUILD\CMAKEFILES\2ECAD6693D109C175D62C5778730EB94\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GOKFU\ONEDRIVE\DESKTOP\MEMORYPROFILER\GUI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/GokFu/OneDrive/Desktop/MemoryProfiler -BC:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build --check-stamp-file C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/Gui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

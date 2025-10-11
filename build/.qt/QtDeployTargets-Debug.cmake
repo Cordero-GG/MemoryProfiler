@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_profiler_lib_FILE C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/lib/Debug/profiler_lib.lib)
+set(__QT_DEPLOY_TARGET_profiler_lib_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_Prueva3_FILE C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/bin/Debug/Prueva3d.exe)
+set(__QT_DEPLOY_TARGET_Prueva3_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_Prueva3_RUNTIME_DLLS C:/Qt/6.9.2/msvc2022_64/bin/Qt6Chartsd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Networkd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6OpenGLWidgetsd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Widgetsd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6OpenGLd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Guid.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Cored.dll)
+set(__QT_DEPLOY_TARGET_simulador_FILE C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/bin/Debug/simulador.exe)
+set(__QT_DEPLOY_TARGET_simulador_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_simulador_RUNTIME_DLLS C:/Qt/6.9.2/msvc2022_64/bin/Qt6Networkd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Networkd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Cored.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Cored.dll)

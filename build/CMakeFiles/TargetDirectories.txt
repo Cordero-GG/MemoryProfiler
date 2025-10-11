@@ -1,0 +1,12 @@
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/CMakeFiles/INSTALL.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/profiler_lib/CMakeFiles/profiler_lib.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/profiler_lib/CMakeFiles/INSTALL.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/profiler_lib/CMakeFiles/ALL_BUILD.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/Gui/CMakeFiles/Prueva3.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/Gui/CMakeFiles/INSTALL.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/Gui/CMakeFiles/ALL_BUILD.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/apps/simulador/CMakeFiles/simulador.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/apps/simulador/CMakeFiles/INSTALL.dir
+C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/build/apps/simulador/CMakeFiles/ALL_BUILD.dir

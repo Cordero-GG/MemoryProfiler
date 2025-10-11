@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\ProfilerServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\ProfilerServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\CMakeFiles\2ecad6693d109c175d62c5778730eb94\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\Gui\mainwindow.ui" />
+    <None Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\GokFu\OneDrive\Desktop\MemoryProfiler\build\Gui\Prueva3_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E42480A1-0D40-35FA-9CC1-B3D4D1D1EBFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5E1865F0-A0AF-3EB2-BAA0-CAFEA62A74E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC8BEDDD-E474-316C-986A-CE1DFAE90488}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

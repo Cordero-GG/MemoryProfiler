@@ -19,18 +19,20 @@ ProfilerNotifier* Profiler::notifier = nullptr;
 
 void Profiler::inicializarNotifier() {
     if (!notifier) {
-        notifier = new ProfilerNotifier();
+        notifier = new ProfilerNotifier();  
     }
 }
 
 // Implementación de TomarInformacion
 void Profiler::TomarInformacion(void* ptr, size_t size, const char* file, int line) {
     std::lock_guard<std::mutex> lock(mutexMetadatos);
+
     QtMemoryInfo info;
     info.size = size;
     info.timestamp = QDateTime::currentDateTime();
     info.file = QString::fromUtf8(file ? file : "unknown");
     info.line = line;
+
     Metadatos[reinterpret_cast<quintptr>(ptr)] = info;
     memoriaTotal += size;
     cantidadGuardados++;
@@ -40,15 +42,19 @@ void Profiler::TomarInformacion(void* ptr, size_t size, const char* file, int li
         maxMemoriaUsada = memoriaTotal;
     }
 
-    // Mensaje de depuración
-    std::cout << "Asignación: " << ptr << " - " << size << " bytes en "
-        << (file ? file : "unknown") << ":" << line << std::endl;
-
+    // Inicializar automáticamente el notifier en la PRIMERA asignación
     if (!notifier) {
         inicializarNotifier();
     }
-    if (notifier) {
+
+    if (notifier && notifier->estaConectado()) {
         notifier->enviarAsignacion(ptr, size, QString::fromUtf8(file ? file : "unknown"), line);
+
+        // Enviar resumen cada 10 asignaciones (alternativa simple al timer)
+        if (totalAsignaciones % 10 == 0) {
+            notifier->enviarResumen(memoriaTotal, cantidadGuardados, maxMemoriaUsada, totalAsignaciones);
+            notifier->enviarReportePorArchivo();
+        }
     }
 }
 
@@ -61,12 +67,15 @@ void Profiler::EliminarInformacion(void* ptr) {
         Metadatos.remove(it.key());
         cantidadGuardados--;
 
-        // Mensaje de depuración
-        std::cout << "Liberación: " << ptr << std::endl;
-    }
+        if (notifier && notifier->estaConectado()) {
+            notifier->enviarLiberacion(ptr);
 
-    if (notifier) {
-        notifier->enviarLiberacion(ptr);
+            // Enviar resumen cada 10 liberaciones
+            if (totalAsignaciones % 10 == 0) {
+                notifier->enviarResumen(memoriaTotal, cantidadGuardados, maxMemoriaUsada, totalAsignaciones);
+                notifier->enviarReportePorArchivo();
+            }
+        }
     }
 }
 

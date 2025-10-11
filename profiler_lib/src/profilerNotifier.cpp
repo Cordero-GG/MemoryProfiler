@@ -1,8 +1,10 @@
-#include "ProfilerNotifier.h"
+#include "profilerNotifier.h"
 #include "profiler.h"
+#include <QDataStream>
 
-ProfilerNotifier::ProfilerNotifier(QObject* parent) : QObject(parent) {
-    socket.connectToHost("127.0.0.1", 8080); // Cambia el puerto si es necesario
+ProfilerNotifier::ProfilerNotifier() {
+    // Conexión simple sin timer
+    socket.connectToHost("127.0.0.1", 8080);
 }
 
 void ProfilerNotifier::enviarAsignacion(void* ptr, size_t size, const QString& file, int line) {
@@ -24,11 +26,11 @@ void ProfilerNotifier::enviarLiberacion(void* ptr) {
     stream.setByteOrder(QDataStream::BigEndian);
 
     stream << reinterpret_cast<quintptr>(ptr);
-
     enviarMensaje("FREE", data);
 }
 
-void ProfilerNotifier::enviarResumen(qint64 memoriaTotal, qint64 cantidadGuardados, qint64 maxMemoriaUsada, qint64 totalAsignaciones) {
+void ProfilerNotifier::enviarResumen(qint64 memoriaTotal, qint64 cantidadGuardados,
+    qint64 maxMemoriaUsada, qint64 totalAsignaciones) {
     QByteArray data;
     QDataStream stream(&data, QIODevice::WriteOnly);
     stream.setByteOrder(QDataStream::BigEndian);
@@ -39,12 +41,28 @@ void ProfilerNotifier::enviarResumen(qint64 memoriaTotal, qint64 cantidadGuardad
         << totalAsignaciones;
 
     enviarMensaje("SUMMARY", data);
+}
 
+void ProfilerNotifier::enviarReportePorArchivo() {
+    auto resumen = Profiler::obtenerResumenPorArchivo();
+
+    QByteArray data;
+    QDataStream stream(&data, QIODevice::WriteOnly);
+    stream.setByteOrder(QDataStream::BigEndian);
+
+    stream << static_cast<quint32>(resumen.size());
+
+    for (auto it = resumen.begin(); it != resumen.end(); ++it) {
+        stream << it.key()
+            << it.value().countAndSize.first
+            << it.value().countAndSize.second;
+    }
+
+    enviarMensaje("FILE_SUMMARY", data);
 }
 
 void ProfilerNotifier::enviarMensaje(const QString& keyword, const QByteArray& data) {
     if (socket.state() == QAbstractSocket::ConnectedState) {
-        // Formato: [keyword_len][data_len][keyword][data]
         QByteArray packet;
         QDataStream packetStream(&packet, QIODevice::WriteOnly);
         packetStream.setByteOrder(QDataStream::BigEndian);
