@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler
+# Install script for directory: C:/Codigos/Datos 2/MemoryProfiler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Codigos/Datos 2/MemoryProfiler/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,24 +34,30 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/profiler_lib/cmake_install.cmake")
+  include("C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/profiler_lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/apps/calculadora/cmake_install.cmake")
+  include("C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/apps/calculadora/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/apps/simulador/cmake_install.cmake")
+  include("C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/apps/simulador/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/cmake_install.cmake")
+  include("C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/Gui/cmake_install.cmake")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
 if(CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
     set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
@@ -65,8 +71,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

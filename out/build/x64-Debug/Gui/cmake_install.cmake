@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/Gui
+# Install script for directory: C:/Codigos/Datos 2/MemoryProfiler/Gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Codigos/Datos 2/MemoryProfiler/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/GokFu/OneDrive/Desktop/MemoryProfiler/out/build/x64-Debug/Gui/Gui.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/Gui/Gui.exe")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Codigos/Datos 2/MemoryProfiler/out/build/x64-Debug/Gui/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
